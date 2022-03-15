@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/cartao.css">
+    <link rel="stylesheet" href="./css/listagem.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Syne+Tactile&display=swap" rel="stylesheet">
+    <link rel="icon" href="./src/Imagens/pokedex-icon-20.jpg"  type="imagem/png">
+    
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto tipo-electric" id="cartao-pikachu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#025</span>
+                        </div>
+                        <span class="tipo" id="icon-electric">Electric</span>
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/pikachu.png" alt="Imagem do Pikachu">
+                        </div>
+
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 1100</li>
+                                <li>Ataque: 110</li>
+                                <li>Defesa: 90</li>
+                                <li>Velocidade: 120</li>
+                                <li>Total: 320</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Electric_Type_Icon.svg.png" alt="Electric element icon"><li>Thunder Shock</li>
+                                <img class="icon-elements" src="./src/Imagens/1024px-Pokémon_Normal_Type_Icon.svg.png" alt="Normal element icon"><li>Quick Attack</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Electric_Type_Icon.svg.png" alt="Electric element icon"><li>Discharge</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Electric_Type_Icon.svg.png" alt="Electric element icon"><li>Thunderbolt</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Electric_Type_Icon.svg.png" alt="Electric element icon"><li>Wild Charge</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-grass" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasaur</h2>
+                            <span>#001</span>
+                        </div>
+                        <span class="tipo" id="icon-grass">Grass</span>  <span class="tipo" id="icon-poison">Poison</span>
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/bulbasaur.png" alt="Imagem do Bulbasaur">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 1200</li>
+                                <li>Ataque: 110</li>
+                                <li>Defesa: 150</li>
+                                <li>Velocidade: 95</li>
+                                <li>Total: 355</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/grass.png" alt="Grass element icon"><li>Vine Whip</li>
+                                <img class="icon-elements" src="./src/Imagens/1024px-Pokémon_Normal_Type_Icon.svg.png" alt="Normal element icon"><li>Tackle</li>
+                                <img class="icon-elements" src="./src/Imagens/grass.png" alt="Grass element icon"><li>Seed Bomb</li>
+                                <img class="icon-elements" src="./src/Imagens/800px-Pokémon_Poison_Type_Icon.svg.png" alt="Poison element icon"><li>Sludge Bomb</li>
+                                <img class="icon-elements" src="./src/Imagens/grass.png" alt="Grass element icon"><li>Power Whip</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fire" id="cartao-charizard">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charizard</h2>
+                            <span>#006</span>
+                        </div>
+                        <span class="tipo" id="icon-fire">Fire</span> <span class="tipo" id="icon-flying">Flying</span>
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/006.png" alt="Imagem do Charizard">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 3300</li>
+                                <li>Ataque: 300</li>
+                                <li>Defesa: 190</li>
+                                <li>Velocidade: 250</li>
+                                <li>Total: 740</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/768px-Pokémon_Fire_Type_Icon.svg.png" alt="Fire element icon"><li>Flamethrower</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Flying_Type_Icon.svg.png" alt="Flying element icon"><li>Air Slash</li>
+                                <img class="icon-elements" src="./src/Imagens/4188010-middle.png" alt="Dragon element icon"><li>Dragon Claw</li>
+                                <img class="icon-elements" src="./src/Imagens/768px-Pokémon_Fire_Type_Icon.svg.png" alt="Fire element icon"><li>Fire Blast</li>
+                                <img class="icon-elements" src="./src/Imagens/768px-Pokémon_Fire_Type_Icon.svg.png" alt="Fire element icon"><li>Overheat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-dark" id="cartao-gengar">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gengar</h2>
+                            <span>#094</span>
+                        </div>
+                        <span class="tipo" id="icon-ghost">Ghost</span> <span class="tipo" id="icon-poison">Poison</span> 
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/gengar.png" alt="Imagem do Gengar">
+                        </div>
+
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 3500</li>
+                                <li>Ataque: 200</li>
+                                <li>Defesa: 300</li>
+                                <li>Velocidade: 150</li>
+                                <li>Total: 650</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Ghost_Type_Icon.svg.png" alt="Ghost element icon"><li>Shadow Claw</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Dark_Type_Icon.svg.png" alt="Dark element icon"><li>Sucker Punch</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Ghost_Type_Icon.svg.png" alt="Ghost element icon"><li>Shadow Ball</li>
+                                <img class="icon-elements" src="./src/Imagens/800px-Pokémon_Poison_Type_Icon.svg.png" alt="Poison element icon"><li>Sludge Bomb</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Dark_Type_Icon.svg.png" alt="Dark element icon"><li>Dark Pulse</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fighting" id="cartao-lucario">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Lucario</h2>
+                            <span>#448</span>
+                        </div>
+                        <span class="tipo" id="icon-fighting">Fighting</span> <span class="tipo" id="icon-steel">Steel</span>
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/448.png" alt="Imagem do Lucario">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 3000</li>
+                                <li>Ataque: 350</li>
+                                <li>Defesa: 160</li>
+                                <li>Velocidade: 250</li>
+                                <li>Total: 760</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/FightingType.png" alt="Fighting element icon"><li>Counter</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Steel_Type_Icon.svg.png" alt="Steel element icon"><li>Bullet Punch</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Steel_Type_Icon.svg.png" alt="Steel element icon"><li>Flash Cannon</li>
+                                <img class="icon-elements" src="./src/Imagens/FightingType.png" alt="Fighting element icon"><li>Close Combat</li>
+                                <img class="icon-elements" src="./src/Imagens/FightingType.png" alt="Fighting element icon"><li>Aura Sphere</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-dragao" id="cartao-krookodile">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Krookodile</h2>
+                            <span>#553</span>
+                        </div>
+                        <span class="tipo" id="icon-ground">Ground</span> <span class="tipo" id="icon-dark">Dark</span> 
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/553.png" alt="Imagem do Krookodile">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 3500</li>
+                                <li>Ataque: 250</li>
+                                <li>Defesa: 250</li>
+                                <li>Velocidade: 170</li>
+                                <li>Total: 670</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/1200px-Pokémon_Ground_Type_Icon.svg.png" alt="Ground element icon"><li>Mud-Slap</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Dark_Type_Icon.svg.png" alt="Dark element icon"><li>Snarl</li>
+                                <img class="icon-elements" src="./src/Imagens/1200px-Pokémon_Ground_Type_Icon.svg.png" alt="Ground element icon"><li>Earthquake</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Dark_Type_Icon.svg.png" alt="Dark element icon"><li>Crunch</li>
+                                <img class="icon-elements" src="./src/Imagens/4188010-middle.png" alt="Dragon element icon"><li>Outrage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-flying" id="cartao-lugia">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Lugia</h2>
+                            <span>#249</span>
+                        </div>
+                        <span class="tipo" id="icon-psychic">Psychic</span>  <span class="tipo" id="icon-flying">Flying</span>
+
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/249.png" alt="Imagem do Lugia">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 4500</li>
+                                <li>Ataque: 350</li>
+                                <li>Defesa: 300</li>
+                                <li>Velocidade: 320</li>
+                                <li>Total: 970</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/4188010-middle.png" alt="Dragon element icon"><li>Dragon Tail</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Psychic_Type_Icon.svg.png" alt="Psychic element icon"><li>Extrasensory</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Water_Type_Icon.svg.png" alt="Water element icon"><li>Hydro Pump</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Flying_Type_Icon.svg.png" alt="Flying element icon"><li>Sky Attack</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Psychic_Type_Icon.svg.png" alt="Psychic element icon"><li>Future Sight</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-water" id="cartao-greninja">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Greninja</h2>
+                            <span>#658</span>
+                        </div>
+                        <span class="tipo" id="icon-water">Water</span>  <span class="tipo" id="icon-dark">Dark</span>
+    
+                        <div class="cartao-imagem">
+                        <img src="src/Imagens/658.png" alt="Imagem do Greninja">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+    
+                            <ul>
+                                <li>HP: 2900</li>
+                                <li>Ataque: 380</li>
+                                <li>Defesa: 120</li>
+                                <li>Velocidade: 270</li>
+                                <li>Total: 770</li>
+                            </ul>
+                        </div>
+    
+                        <div class="habilidade">
+                            <h3>Habilidade</h3>
+    
+                            <ul>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Water_Type_Icon.svg.png" alt="Water element icon"><li>Bubble</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Dark_Type_Icon.svg.png" alt="Dark element icon"><li>Feint Attack</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Water_Type_Icon.svg.png" alt="Water element icon"><li>Hydro Pump</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Dark_Type_Icon.svg.png" alt="Dark element icon"><li>Night Slash</li>
+                                <img class="icon-elements" src="./src/Imagens/Pokémon_Water_Type_Icon.svg.png" alt="Water element icon"><li>Surf</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="pokemon ativo" id="pikachu">
+                        <img src="src/Imagens/cabeca-pikachu.png" alt="cabeça do Pikachu">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokemon" id="bulbasaur">
+                        <img src="src/Imagens/cabeca-bulbasaur.png" alt="cabeça do Bulbasaur">
+                        <span>Bulbasaur</span>
+                    </li>
+                    <li class="pokemon" id="charizard">
+                        <img src="src/Imagens/006 (1).png" alt="cabeça do Charizard">
+                        <span>Charizard</span>
+                    </li>
+                    <li class="pokemon" id="gengar">
+                        <img src="src/Imagens/cabeca-gengar.png" alt="cabeça do Gengar">
+                        <span>Gengar</span>
+                    </li>
+                    <li class="pokemon" id="lucario">
+                        <img src="src/Imagens/448 (1).png" alt="cabeça do Lucario">
+                        <span>Lucario</span>
+                    </li>
+                    <li class="pokemon" id="krookodile">
+                        <img src="src/Imagens/f621137ce70b2f2dd8dbc7471a3232a2.png" alt="cabeça do Krookodile">
+                        <span>Krookodile</span>
+                    </li>
+                    <li class="pokemon" id="lugia">
+                        <img src="src/Imagens/p249f583.webp" alt="cabeça do Lugia">
+                        <span>Lugia</span>
+                    </li>
+                    <li class="pokemon" id="greninja">
+                        <img src="src/Imagens/658-Greninja.webp" alt="cabeça do Greninja">
+                        <span>Greninja</span>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
